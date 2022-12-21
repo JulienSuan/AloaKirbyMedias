@@ -1,0 +1,50 @@
+.media {
+    border-left: rgba(245, 245, 245, 0.575) 4px solid;
+    color: whitesmoke;
+    padding: 2rem 4rem;
+    padding-left: 1rem;
+    /* border-radius: 1rem; */
+    background-color: rgba(255, 255, 255, 0.021);
+    cursor: pointer;
+    transition: .15s;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* position: relative; */
+    overflow: hidden;
+  }
+.media:hover {
+    background-color: rgba(255, 255, 255, 0.075);
+    border-left: rgba(245, 245, 245, 0.863) 4px solid;
+    transform: translateY(-5%) scale(1.05);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+.mediatitle {
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.fa-twitch {
+    transition: .15s;
+}
+.back {
+    position: absolute;
+    background-color: red;
+    width: 5px;
+    height: 5px;
+    transform: translate(-50%, -50%);
+    animation: anim .55s forwards;
+    border-radius: 50%;
+    z-index: -1;
+}
+@keyframes anim {
+    to {
+        width: 1500px;
+        height: 1500px;
+        
+    }
+}

@@ -1,38 +1,70 @@
 .App {
-  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(19, 19, 19);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  width: 100%;
+  height: 30vh;
+  background-image: url("./ressources/TableauBanniere.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  position: relative;
 }
-
-.App-link {
-  color: #61dafb;
+.icon {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url("./ressources/unnamed.jpg");
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  right: 50%;
+  border: rgb(19, 19, 19) 10px solid;
+  transform: translateX(50%) translateY(-50%);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title-header {
+  font-size: 4rem;
+  padding: 1rem 2rem;
+  color: whitesmoke;
+  position: absolute;
+  font-family: monospace;
+  right: 50%;
+  transform: translateX(50%);
+  margin-top: 7rem;
+}
+.header::before {
+  /* backdrop-filter: brightness(.1); */
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("./ressources/téléchargement.png");
+}
+.supercont {
+  background-color: rgb(19, 19, 19);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+.cont-media {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+  /* background-color: red; */
+  gap: 2rem;
+  position: relative;
+  width: 75%;
+  
+}
+.divMedia {
+  border-left: whitesmoke 4px solid;
+  /* border-radius: 1rem; */
+  background-color: rgba(255, 255, 255, 0.068);
 }
