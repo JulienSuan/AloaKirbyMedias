@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/AloaKirbyMedias/static/css/main.d045a457.css",
-    "main.js": "/AloaKirbyMedias/static/js/main.b52c088e.js",
+    "main.css": "/AloaKirbyMedias/static/css/main.f87c16dd.css",
+    "main.js": "/AloaKirbyMedias/static/js/main.35e7521e.js",
     "static/js/787.01defb03.chunk.js": "/AloaKirbyMedias/static/js/787.01defb03.chunk.js",
     "static/media/TableauBanniere.jpg": "/AloaKirbyMedias/static/media/TableauBanniere.69b428ad707db97a56cb.jpg",
     "static/media/unnamed.jpg": "/AloaKirbyMedias/static/media/unnamed.c6caa52a90c19e79e7dc.jpg",
     "index.html": "/AloaKirbyMedias/index.html",
-    "main.d045a457.css.map": "/AloaKirbyMedias/static/css/main.d045a457.css.map",
-    "main.b52c088e.js.map": "/AloaKirbyMedias/static/js/main.b52c088e.js.map",
+    "main.f87c16dd.css.map": "/AloaKirbyMedias/static/css/main.f87c16dd.css.map",
+    "main.35e7521e.js.map": "/AloaKirbyMedias/static/js/main.35e7521e.js.map",
     "787.01defb03.chunk.js.map": "/AloaKirbyMedias/static/js/787.01defb03.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d045a457.css",
-    "static/js/main.b52c088e.js"
+    "static/css/main.f87c16dd.css",
+    "static/js/main.35e7521e.js"
   ]
 }
