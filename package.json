@@ -1,6 +1,6 @@
 {
-  "name": "https://JulienSuan.github.io/AloaKirbyMedias",
-  "homepage": "",
+  "name": "aloa",
+  "homepage": "https://JulienSuan.github.io/AloaKirbyMedias",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

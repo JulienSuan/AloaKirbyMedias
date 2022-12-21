@@ -9,8 +9,8 @@ function App() {
       <div className="header">
       </div>
         <div className="icon"></div>
-          <h1 className='title-header'>✨Retrouvez Aloakirby🎄</h1>
       <div className="supercont">
+          <h1 className='title-header'>✨Retrouvez Aloakirby🎄</h1>
         <div className="cont-media">
           <a href="https://www.twitch.tv/aloakirby" target="_blank"><Media color={"#815fc0"}><i className="fa-brands fa-twitch fa-5x"></i><h2 className='mediatitle'>Twitch</h2></Media></a>
           <a href="https://twitter.com/Aloakirby" target="_blank"><Media color={"#2bc4ff"} ><i className="fa-brands fa-twitter fa-5x"></i><h2 className='mediatitle'>Twitter</h2></Media></a>
