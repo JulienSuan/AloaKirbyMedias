@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/AloaKirbyMedias/static/css/main.f87c16dd.css",
-    "main.js": "/AloaKirbyMedias/static/js/main.35e7521e.js",
+    "main.css": "/AloaKirbyMedias/static/css/main.a286a7f8.css",
+    "main.js": "/AloaKirbyMedias/static/js/main.6bd43a15.js",
     "static/js/787.01defb03.chunk.js": "/AloaKirbyMedias/static/js/787.01defb03.chunk.js",
     "static/media/TableauBanniere.jpg": "/AloaKirbyMedias/static/media/TableauBanniere.69b428ad707db97a56cb.jpg",
+    "static/media/SHERWOOD.TTF": "/AloaKirbyMedias/static/media/SHERWOOD.7fe5e4a1176ce6d59044.TTF",
     "static/media/unnamed.jpg": "/AloaKirbyMedias/static/media/unnamed.c6caa52a90c19e79e7dc.jpg",
     "index.html": "/AloaKirbyMedias/index.html",
-    "main.f87c16dd.css.map": "/AloaKirbyMedias/static/css/main.f87c16dd.css.map",
-    "main.35e7521e.js.map": "/AloaKirbyMedias/static/js/main.35e7521e.js.map",
+    "main.a286a7f8.css.map": "/AloaKirbyMedias/static/css/main.a286a7f8.css.map",
+    "main.6bd43a15.js.map": "/AloaKirbyMedias/static/js/main.6bd43a15.js.map",
     "787.01defb03.chunk.js.map": "/AloaKirbyMedias/static/js/787.01defb03.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f87c16dd.css",
-    "static/js/main.35e7521e.js"
+    "static/css/main.a286a7f8.css",
+    "static/js/main.6bd43a15.js"
   ]
 }
