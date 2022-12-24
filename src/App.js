@@ -1,11 +1,24 @@
+import { useEffect, useState } from 'react';
 import './App.css';
+import Load from './ressources/Components/Load/Load';
 import Media from './ressources/Components/Media/Media';
+
+
+
 
 function App() {
 
+  const [here, sethere] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => {
+      sethere(false)
+    }, 3500);
+  }, [])
 
   return (
     <div className="App">
+        <Load isHere={here} sethere={sethere}></Load>
       <div className="header">
       </div>
         <div className="icon"></div>
